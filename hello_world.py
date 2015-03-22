@@ -3,7 +3,6 @@ import bottle
 @bottle.route('/')
 def home_page():
     mythings = ['apple', 'orange', 'banana', 'peach']
-    
     return bottle.template('hello_world', {'username':"Sreejith", 'things':mythings})
 
 @bottle.post('/favorite_fruit')
