@@ -26,5 +26,6 @@ def find():
 	except Exception as e:
 		print type(e),e	
 		
-find_one()		
+find_one()	
+	
 find()
